@@ -26,3 +26,11 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Highest level
+- First  [need two spaces at eol]
+- Second
+- See what happened, above [not followed by two spaces at eol]  
+
+## Next level
+### Next level
