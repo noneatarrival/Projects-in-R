@@ -92,7 +92,10 @@ Or is it better to do it like this:
 * After each
 * Item
 * Until you reach the last one  
-This might look, as I expect? Nope. No list created.  
+This might look, as I expect? Nope. No list created.   
+
+> Absolutely maddening
+
 
 So, you need to always put double spaces to create new lines.  
 Or else, you end up with
