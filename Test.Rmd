@@ -27,6 +27,10 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+(My link)[http://www.mylink.com]
+![http://www.mylink.com](my text)
+[text to show](http://www.mylink.com)
+
 # Highest level
 - First  [need two spaces at eol]
 - Second
@@ -34,7 +38,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Next level
 Will it behave differently? The second header wasn't showing up.
-- Next list  
+- ~~Next list~~ misbehaving
 - No spaces  
 - What happens?  [added trailing spaces]  
 
