@@ -84,7 +84,7 @@ What happens to this paragraph?
 This seems nonsensical.  
 <!--Why does nothing work???-->
 \textbf{text ignored in HTML}
-<em>HTML ignored in pdfs</em>
+<em><a href="http://www.mylink.com/">link here</a></em>
 
 As long as you put a double space after each one?
 Or is it better to do it like this:  
