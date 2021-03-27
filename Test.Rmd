@@ -1,9 +1,9 @@
 ---
 title: "Test Markdown"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -33,6 +33,72 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 [text to show](http://www.mylink.com)
 These are the same using `()` (http://www.mylink.com) or `<>` <http://www.mylink.com>
 Or [my text to show]<http://www.mylink.com>
+
+# Where is the source of the formatting issue?
+
+Try a list: 
+
+* One
+  - Two
+* Two
+  - Three
+
+So, something is really wrong:
+
+- List
+- Should
+- Be
+- Very
+- Very Easy
+
+Here is another attempt:  
+
+* One
+* Two
+* Three
+No messing about
+
+This seems like f@cking nonsense to me:
+  
+1. First
+    + Sub one
+1. Second
+    + Sub two
+    + Sub three
+1. Third
+    + Sub four
+
+Done    
+
+Try a list with \@ signs  
+
+@ First
+@ Second
+@ Third
+   
+Then try continuing that list
+
+@ One
+@ Two
+@ Three
+    
+Done
+
+<!--Sh!t busted, so draw a line -->
+***
+
+List above should just work, w/out worrying about spaces:  
+
+1. Wake up
+    + Get out of bed
+    + Warm up food
+1. Open kitchen door
+    + Get plate out of cupboard
+1. Make coffee
+  i. Warm up water
+  i. Grind beans
+3. Make breakfast
+
 
 # Highest level
 - First  [need two spaces at eol]
@@ -96,6 +162,21 @@ This might look, as I expect? Nope. No list created.
 
 > Absolutely maddening
 
+# Trying numbered lists
+This first list:  
+1. First item  
+1. Second item  
+1. Third item  
+
+The second list, w/ indents:  
+1. First item  
+  * Second item  
+  * Third item  
+1. Second major item  
+  * Second sub item
+1. Third major item  
+
+Done
 
 So, you need to always put double spaces to create new lines.  
 Or else, you end up with
