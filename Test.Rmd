@@ -30,11 +30,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 # Highest level
 - First  [need two spaces at eol]
 - Second
-- See what happened, above [not followed by two spaces at eol]  
+- See what happened, above [not followed by two spaces at eol -- removing trailing spaces]
 ## Next level
 - Next list
 - No spaces
-- What happens?
+- What happens?  [added trailing spaces]
 ### Next level
 - Next list with mixed spacing
 - So this line has  
