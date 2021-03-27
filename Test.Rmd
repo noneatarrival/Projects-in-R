@@ -1,6 +1,9 @@
 ---
 title: "Test Markdown"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -27,23 +30,40 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-(My link)[http://www.mylink.com]
-![http://www.mylink.com](my text)
 [text to show](http://www.mylink.com)
+These are the same using `()` (http://www.mylink.com) or `<>` <http://www.mylink.com>
+Or [my text to show]<http://www.mylink.com>
 
 # Highest level
 - First  [need two spaces at eol]
 - Second
-- See what happened, above [not followed by two spaces at eol -- removing trailing spaces]
+- See what happened, above [not followed by two spaces at eol -- removing trailing spaces]  
 
 ## Next level
-Will it behave differently? The second header wasn't showing up.
-- ~~Next list~~ misbehaving
+Will it behave differently? The second header wasn't showing up.  
+
+- Next list misbehaving  
 - No spaces  
 - What happens?  [added trailing spaces]  
 
+~~ Strikethrough ~~
+~~strikethrough~~
+
 ### Next level
-Again, third level, like the second level wasn't showing up.
+Again, third level, like the second level wasn't showing up.  
+
 - Next list with mixed spacing  
 - So this line has  
 - This line and the first, do not  
+
+
+# New section
+No new line space -- turns out fine.  
+
+- But my list?  
+- No spaces?  
+- None at all?  
+
+# New section
+
+With a line space, and now trying --strikethrough-- or ~~strikethrough~~
