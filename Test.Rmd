@@ -64,6 +64,49 @@ No new line space -- turns out fine.
 - No spaces?  
 - None at all?  
 
-# New section
+# Testing Lists {#anchor}
 
 With a line space, and now trying --strikethrough-- or ~~strikethrough~~
+Just a return after the last line above (so this line is on the same line)  
+Two spaces, after the line above (so this is a new paragraph)  
+Would that then explain lists?  
+* Any  
+* Old  
+* Way  
+
+Can I create a list after this?  
+* Item 1  
+  + Sub-item 1
+  + Sub-item 2  
+
+What happens to this paragraph?  
+
+This seems nonsensical.  
+<!--Why does nothing work???-->
+\textbf{text ignored in HTML}
+<em>HTML ignored in pdfs</em>
+
+As long as you put a double space after each one?
+Or is it better to do it like this:  
+* No spaces
+* After each
+* Item
+* Until you reach the last one  
+This might look, as I expect? Nope. No list created.  
+
+So, you need to always put double spaces to create new lines.  
+Or else, you end up with
+Run on sentences, even though
+In Studio I am pressing carriage
+Return after with/ though/ and carriage  
+
+Total mess, then when it comes to lists.  
+* Trying one here  
+    Another here  
+    And another here  
+    And more here  
+How did we do?
+
+@ This seems confusing  
+But it's hard to say, if I'm doing it  
+@ Or the code is  
