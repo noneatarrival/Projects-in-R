@@ -31,11 +31,15 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 - First  [need two spaces at eol]
 - Second
 - See what happened, above [not followed by two spaces at eol -- removing trailing spaces]
+
 ## Next level
+Will it behave differently? The second header wasn't showing up.
 - Next list
 - No spaces
 - What happens?  [added trailing spaces]
+
 ### Next level
+Again, third level, like the second level wasn't showing up
 - Next list with mixed spacing
 - So this line has  
 - This line and the first, do not
