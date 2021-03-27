@@ -35,11 +35,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ## Next level
 Will it behave differently? The second header wasn't showing up.
 - Next list  
-- No spaces
-- What happens?  [added trailing spaces]
+- No spaces  
+- What happens?  [added trailing spaces]  
 
 ### Next level
-Again, third level, like the second level wasn't showing up
+Again, third level, like the second level wasn't showing up.
 - Next list with mixed spacing  
 - So this line has  
-- This line and the first, do not
+- This line and the first, do not  
