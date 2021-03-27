@@ -31,6 +31,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 - First  [need two spaces at eol]
 - Second
 - See what happened, above [not followed by two spaces at eol]  
-
 ## Next level
+- Next list
+- No spaces
+- What happens?
 ### Next level
+- Next list with mixed spacing
+- So this line has  
+- This line and the first, do not
